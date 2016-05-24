@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FrameWork.iml" filepath="$PROJECT_DIR$/FrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Amazon/com.Amazon.iml" filepath="$PROJECT_DIR$/Amazon/com.Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cigna/com.Cigna.iml" filepath="$PROJECT_DIR$/Cigna/com.Cigna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Citibank/com.Citibank.iml" filepath="$PROJECT_DIR$/Citibank/com.Citibank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cnn/com.Cnn.iml" filepath="$PROJECT_DIR$/Cnn/com.Cnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facebook/com.Facebook.iml" filepath="$PROJECT_DIR$/Facebook/com.Facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/com.Generic.iml" filepath="$PROJECT_DIR$/Generic/com.Generic.iml" />
     </modules>
   </component>
 </project>

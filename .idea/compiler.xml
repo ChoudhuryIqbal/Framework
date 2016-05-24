@@ -22,11 +22,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="FrameWork" />
+        <module name="com.Amazon" />
+        <module name="com.Cigna" />
+        <module name="com.Citibank" />
+        <module name="com.Cnn" />
+        <module name="com.Facebook" />
+        <module name="com.Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.5" />
+      <module name="Cigna" target="1.5" />
+      <module name="Citibank" target="1.5" />
+      <module name="Cnn" target="1.5" />
+      <module name="com.Amazon" target="1.5" />
+      <module name="com.Cigna" target="1.5" />
+      <module name="com.Citibank" target="1.5" />
+      <module name="com.Cnn" target="1.5" />
+      <module name="com.Facebook" target="1.5" />
+      <module name="com.Generic" target="1.5" />
+      <module name="Facebook" target="1.5" />
       <module name="FrameWork" target="1.5" />
+      <module name="Generic" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
