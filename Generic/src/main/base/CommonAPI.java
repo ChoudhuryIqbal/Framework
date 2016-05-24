@@ -19,9 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by rrt on 4/23/2016.
- */
+
 public class CommonAPI {
 
     public WebDriver driver = null;
