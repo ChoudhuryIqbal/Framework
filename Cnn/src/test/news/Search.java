@@ -17,15 +17,28 @@ public class Search extends CommonAPI {
 
     @Test
     public void searchNews() throws InterruptedException,IOException{
+        String[] data=readNewsData.getData();
         clickByCss("#search-button");
         Thread.sleep(1000);
+        int counter=0;
+        for (String st: data){
+            if(counter==0){
+                typeByCss("#Search-input-field",st);
+                takeEnterKeys("#search-input-field");
+
+                clearInputField("#search-input-field");
+                Thread.sleep(1000);
+                counter++;
+            }
+            else{
+                typeByCss("#searchInputTop",st);
+                takeEnterKeys("#searchInputTop");
+                Thread.sleep(1000);
+                clearInputField("#searchInputTop");
+            }
 
 
-
-        typeByCss("#search-input-field",readNewsData.getData());
-
-        takeEnterKeys("#search-input-field");
-        Thread.sleep(3000);
+        }
 
 
     }

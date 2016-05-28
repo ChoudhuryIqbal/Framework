@@ -104,6 +104,7 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 
+
     public void typeByXpath(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }
@@ -133,6 +134,19 @@ public class CommonAPI {
     public void selectOptionByVisibleText(WebElement element, String value) {
         Select select = new Select(element);
         select.selectByVisibleText(value);
+    }
+
+
+
+
+    public void clearInputField(String locator){
+
+        driver.findElement(By.cssSelector(locator)).clear();
+    }
+
+
+    public void sleepFor(int sec) throws InterruptedException{
+        Thread.sleep(sec*1000);
     }
 
 }
