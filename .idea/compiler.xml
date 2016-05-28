@@ -38,7 +38,7 @@
       <module name="com.Amazon" target="1.8" />
       <module name="com.Cigna" target="1.5" />
       <module name="com.Citibank" target="1.5" />
-      <module name="com.Cnn" target="1.5" />
+      <module name="com.Cnn" target="1.8" />
       <module name="com.Facebook" target="1.5" />
       <module name="com.Generic" target="1.5" />
       <module name="Facebook" target="1.5" />
