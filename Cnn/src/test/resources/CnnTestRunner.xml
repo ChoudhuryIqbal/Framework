@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Cnn App running on Firefox Browser">
-    <parameter name="usecloud" value="true"/>
+    <parameter name="usecloud" value="false"/>
     <parameter name="userName" value="123nafeees"/>
     <parameter name="accessKey" value="1946ef25-b177-45aa-bf0c-564cb218c7fb"/>
     <parameter name="os" value="Windows 8"/>
