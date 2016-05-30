@@ -21,6 +21,8 @@ public class Search {
         searchInput.sendKeys(item, Keys.ENTER);
 
     }
+
+
     public void clearSearch(){
         searchInput.clear();
     }
