@@ -14,7 +14,8 @@
     <test name="Home Page">
 
         <classes>
-            <class name="news.Search"/>
+            <!--<class name="news.Search"/>-->
+            <class name="news.SearchNewsFromDB"/>
         </classes>
     </test>
     
